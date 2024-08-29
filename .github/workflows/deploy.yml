@@ -24,7 +24,7 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: docker-gh
+          application_name: docker-react
           environment_name: Dockergh-env
           existing_bucket_name: elasticbeanstalk-us-east-1-772408512209
           region: us-east-1
